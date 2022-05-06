@@ -133,4 +133,4 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'tusharverma643@gmail.com'
-EMAIL_HOST_PASSWORD = 'atging@31052000'
+EMAIL_HOST_PASSWORD = 'asitsn@31052000'
