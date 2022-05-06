@@ -2,8 +2,32 @@
 
 {% block content %}
 
-<h1>Send Mail</h1>
-<h2></h2>
+<h1>Add E-Mail</h1>
+<div>
+    <form method="POST" action="{% url 'add_email' %}">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" value="Submit"/>
+    </form>
+</div>
+
+<h1>Add Topic (Content type) to Emails-registered</h1>
+<div>
+    <form method="POST" action="{% url 'add_content_type' %}">
+        {% csrf_token %}
+        {{content_type_form.as_p}}
+        <input type="submit" value="Submit"/>
+    </form>
+</div>
+
+<h1>Add Campaign Mail</h1>
+<div>
+    <form method="POST" action="{% url 'add_content' %}">
+        {% csrf_token %}
+        {{content_form.as_p}}
+        <input type="submit" value="Submit"/>
+    </form>
+</div>
 
 {% endblock %}
 
