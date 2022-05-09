@@ -38,6 +38,15 @@ pip install -r requirements.txt
 Note that you may use Virtual enviornment as well by using -  `(env)` in front of the prompt. This indicates that this terminal
 session operates in a virtual environment.
 
+## Updating settings.py
+
+FInd EMAIL_HOST_USER and  EMAIL_HOST_PASSWORD in mailchamp > settings.py and update the values of those variables respectively.
+EMAIL_HOST_USER = 'your gmail address'
+EMAIL_HOST_PASSWORD = 'password'
+
+Make sure you have SMTP available in your gmail account by allowing less secure apps to access/send/recieve authentication and sending mail privileges.
+
+
 Once `pip` has finished downloading the dependencies:
 ```sh
 cd mailchimp
