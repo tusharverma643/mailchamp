@@ -6,15 +6,18 @@ MailChamp is an Email Marketing / Newsletter service application that kind of im
 MailChamp is built with **Django 4.0** and uses **PostgresQL** as a Database.
 Mailchimp currently can run on a local machine but soon would be deployed on AWS EC2 (Fur=ture Scope)
 
-![welcome Screen](assets/home1.jpg)
+<!-- ![welcome Screen](assets/home1.jpg)
 ![Login Page](assets/login.jpg)
-![Home](assets/home2.jpg)
+![Home](assets/home2.jpg) -->
 
 ## Getting Started
 ### Dependencies
 Python >= 3.9
+
 Django >= 4.0
+
 PostgreSQL >= 14.2
+
 APScheduler==3.9.1 (Background Job Scheduler)
 
 Preferred OS- Windows 10/Any linux distribution/Mac
@@ -42,6 +45,8 @@ python manage.py runserver
 ```
 And navigate to `http://127.0.0.1:8000`.
 Thats it.
+
+Note: You also need to have postgresQL >=14.0  installed in your computer. To install it follow the following ![documentation](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/)
 
 ## Author
 **Tushar Verma**  - Backend Development & Database Integration
