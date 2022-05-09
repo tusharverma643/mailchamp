@@ -46,7 +46,9 @@ python manage.py runserver
 And navigate to `http://127.0.0.1:8000`.
 Thats it.
 
-Note: You also need to have postgresQL >=14.0  installed in your computer. To install it follow the following ![documentation](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/)
+Note: You also need to have postgresQL >=14.0  installed in your computer. To install it follow the following documentaion.
+
+(https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/)
 
 ## Author
 **Tushar Verma**  - Backend Development & Database Integration
