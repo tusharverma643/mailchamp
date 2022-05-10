@@ -6,9 +6,8 @@ MailChamp is an Email Marketing / Newsletter service application that kind of im
 MailChamp is built with **Django 4.0** and uses **PostgresQL** as a Database.
 Mailchimp currently can run on a local machine but soon would be deployed on AWS EC2 (Fur=ture Scope)
 
-<!-- ![welcome Screen](assets/home1.jpg)
-![Login Page](assets/login.jpg)
-![Home](assets/home2.jpg) -->
+![MailChamp Preview 1](Assets/mailchamp1.jpg)
+![MailChamp Preview 2](Assets/mailchamp2.jpg)
 
 ## Getting Started
 ### Dependencies
