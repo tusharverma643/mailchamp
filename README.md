@@ -8,7 +8,7 @@ Mailchimp currently can run on a local machine but soon would be deployed on AWS
 
 ![MailChamp Preview 1](Assets/mailchamp1.jpg)
 ![MailChamp Preview 2](Assets/mailchamp2.jpg)
-![MailChamp Preview 3](Assets/recievededmails.jpg)
+![MailChamp Preview 3](Assets/recievedmails.jpg)
 
 ## Getting Started
 ### Dependencies
