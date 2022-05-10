@@ -50,7 +50,7 @@ Make sure you have SMTP available in your gmail account by allowing less secure 
 Once `pip` has finished downloading the dependencies:
 ```sh
 cd mailchimp
-python manage.py runserver
+python manage.py runserver --noreload
 ```
 And navigate to `http://127.0.0.1:8000`.
 Thats it.
