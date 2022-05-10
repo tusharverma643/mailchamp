@@ -1,22 +1,19 @@
-from multiprocessing import context
 from django.shortcuts import render
-# from django.core.mail import send_mail
-# from django.conf import settings
 from django.shortcuts import redirect
 from .forms import ContentForm, ContentTypeForm, EmailForm
 from .models import Content
 from django.utils.timezone import localtime 
 # Create your views here.
 
-
+#render Forms on the home page.
 def home(request):
     emailform = EmailForm()
     content_type_form = ContentTypeForm()
     content_form= ContentForm()
-    context= {'form': emailform,'content_type_form': content_type_form,'content_form': content_form}
+    context= {'email_form': emailform,'content_type_form': content_type_form,'content_form': content_form}
     return render(request,'base/home.html',context)  
  
-
+#view to add email
 def add_email(request):
     if request.method == 'POST':
         form=EmailForm(request.POST)
@@ -24,6 +21,7 @@ def add_email(request):
             form.save()
             return redirect('home')
 
+#view to add content type
 def add_content_type(request):
     if request.method == 'POST':
         form=ContentTypeForm(request.POST)
@@ -31,6 +29,7 @@ def add_content_type(request):
             form.save()
             return redirect('home')
 
+#view to add content ie Email to be sent.
 def add_content(request):
     if request.method == 'POST':
         form=ContentForm(request.POST)
@@ -43,8 +42,5 @@ def add_content(request):
             content.save()
             return redirect('home')
 
-# def email(request):
-    
-#     return render(request,'base/home.html')
 
  

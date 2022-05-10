@@ -6,7 +6,7 @@
 <div>
     <form method="POST" action="{% url 'add_email' %}">
         {% csrf_token %}
-        {{form.as_p}}
+        {{email_form.as_p}}
         <input type="submit" value="Submit"/>
     </form>
 </div>
