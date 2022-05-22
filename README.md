@@ -2,7 +2,7 @@
 Automatic Email Marketing / Newsletter Application. Built using Django and PostgreSQL.
 
 ## Description
-MailChamp is an Email Marketing / Newsletter service application that kind of immitates what other Cold-Emailing Softwares like MailChimp, Twillio do on a fundamental level.
+MailChamp is an Email Marketing / Newsletter service application that kind of imitates what other Cold-Emailing Softwares like MailChimp, Twillio do on a fundamental level.
 MailChamp is built with **Django 4.0** and uses **PostgreSQL** as a Database.
 Mailchimp currently can run on a local machine but soon would be deployed on AWS EC2 (Future Scope)
 
